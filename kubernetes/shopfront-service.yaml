@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: shopfront
-        image: jradsiw/shopfront:latest
+        image: pfedevops/shopfront:latest
         ports:
         - containerPort: 8010
         livenessProbe:
