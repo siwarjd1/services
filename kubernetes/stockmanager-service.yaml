@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: stockmanager
-        image: siwar/stockmanager:latest
+        image: siwarjd/stockmanager:latest
         ports:
         - containerPort: 8030
         livenessProbe:
